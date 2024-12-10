@@ -1,7 +1,7 @@
 function insert_Row() {
     let table = document.getElementById('sampleTable');
 
-    let newRow = table.insertRow(0); // Insert at the top (index 0)
+    let newRow = table.insertRow(0);
 	
     let leftCell = newRow.insertCell(0);
     leftCell.textContent = 'New Cell1';
